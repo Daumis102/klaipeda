@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pajuris1"
+    tools:context="com.example.daumantas.klaipeda.Pajuris">
+
+    <Button
+        android:id="@+id/melnarage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_sand"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="@string/melnarage"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/giruliai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/melnarage"
+        android:text="@string/giruliai"
+        android:background="@drawable/button_sand"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/palanga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/giruliai"
+        android:text="@string/palanga"
+        android:background="@drawable/button_sand"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/smiltyne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smiltyne"
+        android:layout_below="@id/palanga"
+        android:background="@drawable/button_sand"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+
+
+
+    <Button
+        android:id="@+id/nida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smiltyne"
+        android:text="@string/nida"
+        android:background="@drawable/button_sand"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+
+</RelativeLayout>

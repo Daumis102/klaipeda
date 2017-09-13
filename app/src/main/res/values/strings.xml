@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">klaipeda</string>
+    <string name="Kultūra">Kultūra</string>
+    <string name="kultura">Kultūra</string>
+    <string name="pajuris">Pajūris</string>
+    <string name="pramogos">Pramogos</string>
+    <string name="isalkau">Išalkau!</string>
+    <string name="nida">Nida</string>
+    <string name="palanga">Palanga</string>
+    <string name="smiltyne">Smiltyne</string>
+    <string name="giruliai">Giruliai</string>
+    <string name="melnarage">Melnarage</string>
+    <string name="Slaptazodis">Slaptažodis</string>
+    <string name="vardas">Vartotojo vardas</string>
+    <string name="prisijungti">Prisijungti</string>
+    <string name="organizaciju_prisijungimas">Organizacijų prisijungimas</string>
+    <string name="oras">Oro temperatūra</string>
+    <string name="vanduo">Vandens temperatūra</string>
+    <string name="vejas">Vėjo greitis</string>
+    <string name="banguotumas">Banguotumas</string>
+    <string name="zydejimas">Vandens žydejimas</string>
+    <string name="darbo_laikas">Gelbėtojų darbo laikas</string>
+    <string name="debesuotumas">Debesuotumas</string>
+    <string name="telefonas">Telefono numeris</string>
+    <string name="email">El. Paštas</string>
+    <string name="pazymeti_zem">Pažymėti žemėlapyje</string>
+    <string name="issaugoti">Išsaugoti</string>
+    <string name="update_success">Informacija atnaujinta sėkmingai</string>
+    <string name="update_failure">Klaida. Informacija neatnaujinta</string>
+    <string name="login">Įmonių prisijungimas</string>
+    <string name="title_activity_change_bussiness_loc">Map</string>
+    <string name="permission_location_rationale">Leidimo reikia, norint užtikrinti pilną žemėlapio funkcionavimą. Be šių leidimų programėlė neveiks.</string>
+    <string name="button_allow">Leisti</string>
+    <string name="button_deny">Neleisti</string>
+    <string name="permission_location_denied">Norėdami, jog programėlė veiktų tinkamai, leiskite naudotis jūsų būvimo vieta</string>
+    <string name="permission_location_neverask">Programėlė veiks netinkamai, prašome leisti prieigą prie jūsų vietos per nustatymus.</string>
+</resources>

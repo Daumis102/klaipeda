@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/klaipeda"
+    tools:context="com.example.daumantas.klaipeda.MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:rowCount="1"
+        android:background="@drawable/clouds_temp"
+        android:id="@+id/gridLayout">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:text="Temperatūra:"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:text="Temp"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/pajuris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/pajuris"
+        android:gravity="center"
+        android:layout_below="@+id/gridLayout"
+        android:layout_alignLeft="@+id/kultura"
+        android:layout_alignStart="@+id/kultura"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/kultura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/kultura"
+        android:gravity="center"
+        android:layout_below="@+id/pajuris"
+        android:layout_alignLeft="@+id/pramogos"
+        android:layout_alignStart="@+id/pramogos"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/isalkau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/isalkau"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/pramogos"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/pramogos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/pramogos"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/kultura"
+        android:layout_alignLeft="@+id/isalkau"
+        android:layout_alignStart="@+id/isalkau" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/isalkau"
+        android:layout_toRightOf="@+id/isalkau"
+        android:text="@string/login" />
+
+</RelativeLayout>
